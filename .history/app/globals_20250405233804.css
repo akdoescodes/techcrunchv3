@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 15, 15, 35;
+  --background-end-rgb: 10, 10, 20;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+/* Typing animation for terminal-like text */
+.typing-animation {
+  overflow: hidden;
+  border-right: 2px solid rgba(147, 51, 234, 0.75);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(147, 51, 234, 0.75);
+  }
+}
+
+/* Pulse animation for elements */
+.pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Gradient text animation */
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes float3d {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+    opacity: 0;
+  }
+  30% {
+    transform: translate3d(10px, -15px, 20px) scale(1.2) rotate(5deg);
+    opacity: 1;
+  }
+  70% {
+    transform: translate3d(-10px, 20px, -20px) scale(0.8) rotate(-5deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+    opacity: 0;
+  }
+}
+
+.animate-float3d {
+  animation: float3d infinite ease-in-out;
+}
+
+.neon-particle {
+  color: #8ef8d7;
+  text-shadow:
+    0 0 2px #a855f7,
+    0 0 6px #a855f7,
+    0 0 12px #ec4899;
+  transition: transform 0.3s ease-in-out;
+}

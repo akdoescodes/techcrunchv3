@@ -1,0 +1,19 @@
+/* Scene.css */
+
+/* The container for the Canvas */
+.canvas-container {
+    width: 100%;
+    height: 500px; /* Adjust the height to your preference */
+    background-color: #f0f0f0; /* Light background */
+    position: relative;
+    margin: 0 auto; /* Center the canvas horizontally */
+    border: 1px solid #ddd; /* Add a border around the canvas */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Optional: you can add more specific styles for 3D elements */
+  canvas {
+    display: block; /* Prevents inline display issues */
+    border-radius: 8px; /* Matching border radius for the canvas */
+  }
+  
