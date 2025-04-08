@@ -57,7 +57,7 @@ export default function Home() {
         category: "Emoji-Based Puzzle Challenge",
         description:
           "Emoji Enigma is a fun and fast-paced decoding challenge where teams must interpret and decipher emoji sequences into meaningful phrases. The team with the highest correct guesses wins the round!",
-        entryFee: "₹ 50",
+        entryFee: "₹ 5000",
         contactInfo: "Aarya Ashtankar ~ 9307523277 | Veena Punde ~ 7559411680 | Gungun Bagde ~ 7588396043",
         registrationLink: "https://forms.gle/U3RCUSc6ayPX94yTA",
         organizer: "GHRCEM Puzzle Society",
