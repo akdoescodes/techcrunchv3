@@ -160,11 +160,11 @@ export default function TerminalWithTechcrunch() {
           <p>
             <span className="text-green-600">user@techcrunch</span>:
             <span className="text-gray-300">
-              $ find events --category="tech" --sort="date"
+              $ find events --category="best events" --sort="date"
             </span>
           </p>
           <p className="text-pink-500 animate-pulse">Crunching data...</p>
-          <p className="text-green-600 font-semibold">Found 6 mind-blowing tech events!</p>
+          <p className="text-green-600 font-semibold">Found 6 mind-blowing events!</p>
         </div>
 
         {/* Glowing Blobs */}
