@@ -44,7 +44,7 @@ export default function Home() {
         registrationLink: "https://forms.gle/8Hg1vT7cJGbzm9FP9",
         organizer: "GHRCEM Tech Crew",
         capacity: "Not specified",
-        additionalInfo: "Teams of 2 members only. Bring your own device.",
+        additionalInfo: "Decode. Discover. Dominate. Register now!",
         speakers: [],
         technologies: ["General Tech", "Typing", "Logic"],
       },
