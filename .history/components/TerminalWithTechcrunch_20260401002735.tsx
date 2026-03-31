@@ -139,7 +139,7 @@ export default function TerminalWithTechcrunch() {
           <div className="w-3 h-3 rounded-full bg-red-500 mr-2 shadow-md" />
           <div className="w-3 h-3 rounded-full bg-yellow-400 mr-2 shadow-md" />
           <div className="w-3 h-3 rounded-full bg-green-400 mr-2 shadow-md" />
-          <span className="text-xs text-purple-400 ml-2">terminal v.2026</span>
+          <span className="text-xs text-purple-400 ml-2">terminal v.2025</span>
         </div>
 
         <h1

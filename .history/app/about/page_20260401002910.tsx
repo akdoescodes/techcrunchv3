@@ -216,15 +216,6 @@ export default function About() {
                     <p><span className="text-purple-500">Phone: </span>8698107876</p>
                   </div>
                 </div>
-
-                <div className="bg-white bg-opacity-30 border border-purple-200 rounded-xl p-4 shadow-inner mt-5">
-                  <p className="text-gray-800 mb-4">Have questions or suggestions? We'd love to hear from you!</p>
-                  <div className="space-y-1 font-mono">
-                    <p><span className="text-purple-500">Name: </span>Veena Punde</p>
-                    <p><span className="text-purple-500">Email: </span>veenapunde04@gmail.com</p>
-                    <p><span className="text-purple-500">Phone: </span>7559411680</p>
-                  </div>
-                </div>
               </section>
 
               {/* Back Link */}
