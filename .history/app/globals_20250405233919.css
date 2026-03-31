@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 15, 15, 35;
+  --background-end-rgb: 10, 10, 20;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  overflow: hidden;
+}
+
+/* Typing animation for terminal-like text */
+.typing-animation {
+  overflow: hidden;
+  border-right: 2px solid rgba(147, 51, 234, 0.75);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(147, 51, 234, 0.75);
+  }
+}
+
+/* Floating 3D-style animation */
+@keyframes float3d {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+    opacity: 0;
+  }
+  30% {
+    transform: translate3d(10px, -15px, 20px) scale(1.2) rotate(5deg);
+    opacity: 1;
+  }
+  70% {
+    transform: translate3d(-10px, 20px, -20px) scale(0.8) rotate(-5deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+    opacity: 0;
+  }
+}
+
+.animate-float3d {
+  animation: float3d 6s ease-in-out infinite;
+}
+
+/* Neon code color */
+.neon-particle {
+  color: #8ef8d7;
+  text-shadow:
+    0 0 2px #8ef8d7,
+    0 0 4px #a855f7,
+    0 0 6px #ec4899;
+  font-family: monospace;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech-font {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
