@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "@/components/navbar";
 import TechEventCard from "@/components/tech-event-card";
 import TechEditForm from "@/components/tech-edit-form";
