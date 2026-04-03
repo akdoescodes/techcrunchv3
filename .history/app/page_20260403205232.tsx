@@ -98,7 +98,7 @@ export default function Home() {
         category: "Debate & Communication",
         description:
           "Silent Disco Debate is a unique and engaging event where participants debate while wearing headphones, combining music and arguments in a fun and competitive environment. It challenges communication, presence of mind, and creativity.",
-        entryFee: "₹50 (Duo only)",
+        entryFee: " ₹50 (Duo)",
         contactInfo:
           "Gauri Dakhole ~ 8390040969 | Diksha Zode ~ 9370760735 | Devyani Dhote ~ 8766422518",
         registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSco5VvKNe-MbfGPOPxUyIeODDRD2uv0kIvRQVmOYXY3G-NoJA/viewform?usp=publish-editor",
