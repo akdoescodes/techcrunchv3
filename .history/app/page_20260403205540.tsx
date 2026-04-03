@@ -59,7 +59,7 @@ export default function Home() {
         category: "Photography Challenge",
         description:
           "DATA-TRON2K26 presents COLOR CAPTURE - a vibrant photography challenge where creativity meets observation! Get assigned a specific color, explore the campus to find it, and capture photos where the color is the main focus. Think photography is just clicking pictures? Think again! Every color tells a story in this limited time challenge.",
-        entryFee: " Solo ₹30  Duo ₹50 ",
+        entryFee: "Registration fees Solo Rs 30/-   Duo Rs 50/- ",
         contactInfo: "Atharva ~ 7083584566 | Rahul ~ 7030804822 | Amol ~ 8766608831",
         registrationLink: "https://forms.gle/XPdPso7v83ixY6JdA",
         organizer:
